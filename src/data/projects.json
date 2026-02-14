@@ -20,8 +20,8 @@
         "description": "Completed hands-on labs for Microsoft Azure Security certification. Configured virtual networks, deployed VMs with security monitoring, and implemented Log Analytics workspaces. Set up Microsoft Sentinel for threat detection and integrated Microsoft Defender for Cloud. Demonstrated cloud security best practices and incident management using Bicep and PowerShell.",
         "link": "https://github.com/JimilPrabtani/AZ500-AzureSecurityTechnologies",
         "background": "/backgrounds/mountains.jpg",
-        "mobile_pic": "/projects/az500/mobile.png",
-        "desktop_pic": "/projects/az500/desktop.png"
+        "mobile_pic": "/projects/AKS/AZ500.jpg",
+        "desktop_pic": "/projects/AKS/AZ500.jpg"
     },
     {
         "title": "Advanced HTB Machines",
@@ -52,7 +52,7 @@
         "description": "A collection of Python projects demonstrating core programming concepts, data structures, and practical problem-solving. Built various applications and scripts showcasing Python fundamentals, object-oriented programming, and automation.",
         "link": "https://github.com/JimilPrabtani/python-learning-projects",
         "background": "/projects/sea-cracker/background.jpg",
-        "mobile_pic": "/projects/python/mobile.png",
-        "desktop_pic": "/projects/python/desktop.png"
+        "mobile_pic": "/projects/python/python.png",
+        "desktop_pic": "/projects/python/python.png"
     }
 ]
