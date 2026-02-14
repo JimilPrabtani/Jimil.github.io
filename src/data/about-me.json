@@ -1,0 +1,23 @@
+[
+    {
+        "image": "/about/kid.png",
+        "when": "Early passion for technology",
+        "description": "Growing up, I was always fascinated by how systems work and how they could be broken or made. This curiosity led me to explore computers, networks, and eventually cybersecurity.",
+        "from": "Early Years",
+        "to": "2023"
+    },
+    {
+        "image": "/about/teen.png",
+        "when": "Building the foundation",
+        "description": "I pursued my Bachelor's in Software Systems Engineering at the University of Regina where I developed strong fundamentals in networking and security. During this time, I gained hands-on experience through various roles from safety compliance at Co-op Refinery Complex to warehouse operations, which taught me discipline, attention to detail, and teamwork in high-risk environments.",
+        "from": "2023",
+        "to": "2025"
+    },
+    {
+        "image": "/about/adult.png",
+        "when": "Today",
+        "description": "I'm currently a Student at UIT studying B.Tech in CyberSecurity and working as a Network Security Engineer Intern at ProSec India, implementing enterprise network security infrastructure with firewalls, VPNs, IDS/IPS, and SIEM solutions. I continuously sharpen my skills through CTF platforms like TryHackMe and Hack The Box, building home labs, and working on real-world security projects. I'm actively preparing for the Azure AZ-500 certification and looking for opportunities in security engineering, SOC analysis, and cloud security.",
+        "from": "2025",
+        "to": "Today"
+    }
+]
