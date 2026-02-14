@@ -1,12 +1,13 @@
 <script setup>
 import FramedMainSection from '@/layouts/FramedMainSection.vue'
 import stories from '@/data/about-me.json'
+import roomImage from '/backgrounds/room.jpg';
 </script>
 
 <template>
     <FramedMainSection id="about-me" class="min-h-[100dvh] flex relative">
         <div
-            class="h-full w-full rounded-4xl bg-[url('/backgrounds/room.jpg')] bg-cover bg-right text-white flex justify-center items-end text-center p-4">
+            class="h-full w-full rounded-4xl bg-cover bg-right text-white flex justify-center items-end text-center p-4" :style="{ backgroundImage: `url(${roomImage})` }">
             <div class="grid grid-cols-1 md:grid-cols-3">
 
                 <div v-for="(story, i) in stories" :key="i"
