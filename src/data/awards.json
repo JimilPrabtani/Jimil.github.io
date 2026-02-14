@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Network Security Fundamentals",
+        "description": "Completed comprehensive training on Palo Alto Networks' next-generation firewall technology. This certification provided critical context for understanding enterprise-grade network security solutions.",
+        "date": "Feb 2026"
+    },
+    {
+        "title": "Advent of Cyber 2025",
+        "description": "Completed TryHackMe's comprehensive 24-day cybersecurity challenge covering offensive security, defensive security, and incident response. Demonstrated skills in Linux fundamentals, web application security, network enumeration, log analysis, cloud & AI security, and attack simulation.",
+        "date": "Dec2025"
+    },
+    {
+        "title": "CompTIA Security+ Certified",
+        "description": "Industry-recognized certification validating foundational cybersecurity knowledge including threats, attacks, vulnerabilities, security architecture, operations, and risk management. Demonstrates competency in securing networks and identifying security vulnerabilities.",
+        "date": "Oct 2025"
+    },
+    {
+        "title": "CompTIA Network+ Certified",
+        "description": "Vendor-neutral certification covering networking concepts, infrastructure, network operations, security, and troubleshooting. Validates skills in designing, configuring, managing, and troubleshooting wired and wireless networks, essential for network security roles.",
+        "date": "Sep 2025"
+    }
+]

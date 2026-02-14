@@ -1,0 +1,58 @@
+[
+    {
+        "title": "Azure Security Project 1",
+        "description": "Implemented a comprehensive network security infrastructure using Azure Firewall as part of AZ-500 certification preparation. Designed and deployed Azure Firewall within a virtual network architecture, created custom route tables to force all outbound traffic through the firewall for centralized inspection, and configured Application Rules with whitelist policies. Implemented Network Rules for DNS traffic management and validated security policies through RDP connections and real-time traffic blocking tests. This lab reinforced enterprise-level cloud security concepts critical for securing cloud workloads.",
+        "link": "#",
+        "background": "/backgrounds/mountains.jpg",
+        "mobile_pic": "/projects/portfolio/contact.png",
+        "desktop_pic": "/projects/portfolio/firewall.jpg"
+    },
+    {
+        "title": "Azure Security Project 2",
+        "description": "Deployed and managed a production-grade Kubernetes cluster on Azure as part of AZ-500 certification training. Created an Azure Container Registry (ACR) to store Docker images, configured AcrPull role assignments for secure image pulling, and provisioned a managed AKS cluster. Containerized NGINX applications and deployed both external and internal services within the Kubernetes environment, implementing network policies and service exposure configurations. Demonstrated proficiency in container orchestration, microservices architecture, Azure resource management, and cloud-native security practices.",
+        "link": "#",
+        "background": "/backgrounds/mountains.jpg",
+        "mobile_pic": "/projects/portfolio/contact.png",
+        "desktop_pic": "/projects/AKS/aks1.png"
+    },
+    {
+        "title": "Azure Security Project 3",
+        "description": "Completed hands-on labs for Microsoft Azure Security certification. Configured virtual networks, deployed VMs with security monitoring, and implemented Log Analytics workspaces. Set up Microsoft Sentinel for threat detection and integrated Microsoft Defender for Cloud. Demonstrated cloud security best practices and incident management using Bicep and PowerShell.",
+        "link": "https://github.com/JimilPrabtani/AZ500-AzureSecurityTechnologies",
+        "background": "/backgrounds/mountains.jpg",
+        "mobile_pic": "/projects/az500/mobile.png",
+        "desktop_pic": "/projects/az500/desktop.png"
+    },
+    {
+        "title": "Advanced HTB Machines",
+        "description": "Completed advanced Hack The Box machines demonstrating offensive security expertise. Giveback: exploited a modern WordPress CVE, abused PHP-CGI and Kubernetes tokens, decoded secrets, pivoted via SSH, and escaped container isolation to root the box. Eloquia: exploited an admin panel, weaponized file upload with a DLL, used SQLite load_extension for RCE, then pivoted to Windows service hijacking for SYSTEM-level access. These challenges strengthened penetration testing skills, privilege escalation techniques, and attack chaining methodologies.",
+        "link": "https://www.notion.so/buddy99/Hack-The-Box-Write-Ups-2a2cd1e88ffe8019a66bf23aa046c566?source=copy_link",
+        "background": "/projects/find-your-tribe/background.jpg",
+        "mobile_pic": "/projects/find-your-tribe/map.png",
+        "desktop_pic": "/projects/find-your-tribe/bg22.png"
+    },
+    {
+        "title": "Cybersecurity Home Lab with Wazuh SIEM",
+        "description": "Built a comprehensive cybersecurity monitoring environment using Wazuh SIEM to monitor two Windows endpoints from Kali Linux. Implemented real-time file integrity monitoring, automated vulnerability scans, and alerting for suspicious activity. This hands-on lab demonstrated practical SIEM deployment, log correlation, incident detection, and security monitoring workflows essential for SOC analyst and security engineering roles. The project strengthened my understanding of defensive security, threat detection, and incident response procedures.",
+        "link": "#",
+        "background": "/projects/sprunk/background.jpg",
+        "mobile_pic": "/projects/sprunk/web.png",
+        "desktop_pic": "/projects/sprunk/wazuh.jpg"
+    },
+    {
+        "title": "Network Security Homelab with pfSense",
+        "description": "Built a virtual multi-network environment with pfSense as the core firewall between WAN and LAN to understand network security fundamentals. Simulated SYN flood attacks from Kali Linux, analyzed traffic patterns using Wireshark, and implemented firewall rules to block malicious traffic. This project provided hands-on experience with network segmentation, traffic analysis, attack simulation, and defense mechanisms. It reinforced practical skills in routing, switching, packet analysis, and firewall configuration essential for network security roles.",
+        "link": "#",
+        "background": "/projects/sea-cracker/background.jpg",
+        "mobile_pic": "/projects/sea-cracker/answer.png",
+        "desktop_pic": "/projects/sea-cracker/pfsense.jpg"
+    },
+    {
+        "title": "Python Learning Projects",
+        "description": "A collection of Python projects demonstrating core programming concepts, data structures, and practical problem-solving. Built various applications and scripts showcasing Python fundamentals, object-oriented programming, and automation.",
+        "link": "https://github.com/JimilPrabtani/python-learning-projects",
+        "background": "/projects/sea-cracker/background.jpg",
+        "mobile_pic": "/projects/python/mobile.png",
+        "desktop_pic": "/projects/python/desktop.png"
+    }
+]

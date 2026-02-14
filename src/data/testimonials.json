@@ -1,0 +1,20 @@
+[
+    {
+        "writer_image": "/testimonials/man-1.jpg",
+        "writer_position": "Security Team Lead at ProSec India",
+        "stars": 5,
+        "description": "As a Network Security Engineer intern, they demonstrated exceptional technical aptitude and eagerness to learn. Their ability to quickly grasp complex security concepts and apply them to real-world scenarios was impressive. They consistently delivered quality work on firewall configurations, SIEM deployments, and vulnerability assessments. A valuable addition to any security team."
+    },
+    {
+        "writer_image": "/testimonials/man-2.jpg",
+        "writer_position": "Safety Manager at Co-op Refinery Complex",
+        "stars": 5,
+        "description": "During their time with us, they showed outstanding attention to detail and commitment to safety compliance. Their diligence in performing safety checks, enforcing PPE usage, and monitoring regulations was exemplary. They brought the same discipline and precision that's essential in both safety-critical environments and cybersecurity roles."
+    },
+    {
+        "writer_image": "/testimonials/man-3.jpg",
+        "writer_position": "CTF Community Member",
+        "stars": 5,
+        "description": "I've worked with them on several Hack The Box challenges and CTF competitions. Their methodical approach to problem-solving and deep understanding of offensive security techniques is remarkable. They excel at privilege escalation, exploit development, and thinking outside the box. A skilled penetration tester with a bright future in cybersecurity."
+    }
+]

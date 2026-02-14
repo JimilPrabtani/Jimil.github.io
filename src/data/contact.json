@@ -1,0 +1,32 @@
+{
+    "Hire me": [
+        {
+            "text": "jimil111prabtani@gmail.com",
+            "href": "mailto:jimil111prabtani@gmail.com"
+        }
+    ],
+    "Social": [
+        {
+            "text": "LinkedIn",
+            "href": "https://www.linkedin.com/in/jimil-prabtani-35a4902aa/",
+            "target": "_blank"
+        },
+        {
+            "text": "TryHackMe Profile",
+            "href": "https://tryhackme.com/p/Bubby9979",
+            "target": "_blank"
+        }
+    ],
+    "CTF Platforms": [
+        {
+            "text": "Hack The Box",
+            "href": "https://app.hackthebox.com/users/2495859",
+            "target": "_blank"
+        },
+        {
+            "text": "GitHub",
+            "href": "https://github.com/jimil-prabtani",
+            "target": "_blank"
+        }
+    ]
+}
