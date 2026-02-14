@@ -5,7 +5,11 @@ import { useScrollContext } from '@/composables/useScrollContext';
 import { ref, onMounted, onBeforeUnmount } from 'vue';
 import FollowingFrame from '@/components/FollowingFrame.vue';
 import { AnimatedComponent } from '@/services/AnimatedComponent';
+<<<<<<< HEAD
 import roomImage from '/backgrounds/room.jpg';
+=======
+import roomImage from '@/assets/backgrounds/room.jpg';
+>>>>>>> 869af70 (Initial Commit)
 
 const component = ref(null)
 const frameRef = ref(null)
