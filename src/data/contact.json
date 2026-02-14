@@ -12,10 +12,11 @@
             "target": "_blank"
         },
         {
-            "text": "TryHackMe Profile",
-            "href": "https://tryhackme.com/p/Bubby9979",
+            "text": "GitHub",
+            "href": "https://github.com/JimilPrabtani",
             "target": "_blank"
         }
+        
     ],
     "CTF Platforms": [
         {
@@ -24,9 +25,10 @@
             "target": "_blank"
         },
         {
-            "text": "GitHub",
-            "href": "https://github.com/JimilPrabtani",
+            "text": "TryHackMe Profile",
+            "href": "https://tryhackme.com/p/Bubby9979",
             "target": "_blank"
         }
+        
     ]
 }
