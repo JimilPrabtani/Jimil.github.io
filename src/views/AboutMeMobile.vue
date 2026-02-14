@@ -1,11 +1,7 @@
 <script setup>
 import FramedMainSection from '@/layouts/FramedMainSection.vue'
 import stories from '@/data/about-me.json'
-<<<<<<< HEAD
 import roomImage from '/backgrounds/room.jpg';
-=======
-import roomImage from '@/assets/backgrounds/room.jpg';
->>>>>>> 869af70 (Initial Commit)
 </script>
 
 <template>

@@ -2,11 +2,7 @@
 import FramedMainSection from '@/layouts/FramedMainSection.vue';
 import testimonials from '@/data/testimonials.json';
 import TestimonialWriterCard from '@/components/TestimonialWriterCard.vue';
-<<<<<<< HEAD
 import skyImage from '/backgrounds/sky.jpg';
-=======
-import skyImage from '@/assets/backgrounds/sky.jpg';
->>>>>>> 869af70 (Initial Commit)
 </script>
 
 <template>

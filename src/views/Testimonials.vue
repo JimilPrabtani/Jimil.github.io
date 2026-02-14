@@ -4,11 +4,7 @@ import FramedMainSection from '@/layouts/FramedMainSection.vue'
 import testimonials from '@/data/testimonials.json'
 import RotateOnScroll from '@/components/RotateOnScroll.vue'
 import TestimonialWriterCard from '@/components/TestimonialWriterCard.vue';
-<<<<<<< HEAD
 import skyImage from '/backgrounds/sky.jpg';
-=======
-import skyImage from '@/assets/backgrounds/sky.jpg';
->>>>>>> 869af70 (Initial Commit)
 
 const frameRef = ref(null);
 const frameSectionRef = ref(null);

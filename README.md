@@ -60,8 +60,4 @@ In order to follow best practices and make the project easier to maintain, I fol
 
 ## **🛡 License**
 
-<<<<<<< HEAD
 MIT License - See LICENSE file for details.
-=======
-MIT License - See LICENSE file for details.
->>>>>>> 869af70 (Initial Commit)

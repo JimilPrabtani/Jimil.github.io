@@ -2,11 +2,7 @@
 import { ref, onMounted } from 'vue';
 import TextAnim from '@/components/TextAnim.vue'
 import FramedMainSection from '@/layouts/FramedMainSection.vue';
-<<<<<<< HEAD
 import mountainsImage from '/backgrounds/mountains.jpg';
-=======
-import mountainsImage from '@/assets/backgrounds/mountains.jpg';
->>>>>>> 869af70 (Initial Commit)
 
 const frameRef = ref(null);
 const containerRef = ref(null);
