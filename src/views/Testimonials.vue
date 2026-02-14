@@ -4,6 +4,7 @@ import FramedMainSection from '@/layouts/FramedMainSection.vue'
 import testimonials from '@/data/testimonials.json'
 import RotateOnScroll from '@/components/RotateOnScroll.vue'
 import TestimonialWriterCard from '@/components/TestimonialWriterCard.vue';
+import skyImage from '/backgrounds/sky.jpg';
 
 const frameRef = ref(null);
 const frameSectionRef = ref(null);
@@ -35,7 +36,7 @@ onMounted(async () => {
                 </div>
             </template>
             <template #background>
-                <img src="skyImage" alt="" class="h-full w-full"/>
+                <img :src="skyImage" alt="" class="h-full w-full"/>
             </template>
         </RotateOnScroll>
     </FramedMainSection>
