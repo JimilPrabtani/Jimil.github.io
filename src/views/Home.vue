@@ -2,6 +2,7 @@
 import { ref, onMounted } from 'vue';
 import TextAnim from '@/components/TextAnim.vue'
 import FramedMainSection from '@/layouts/FramedMainSection.vue';
+import mountainsImage from '/backgrounds/mountains.jpg';
 
 const frameRef = ref(null);
 const containerRef = ref(null);
@@ -14,7 +15,7 @@ onMounted(() => {
 <template>
     <FramedMainSection ref="frameRef" id="Jimil" class="h-dvh">
         <div 
-            class="h-full w-full bg-fit bg-cover bg-position-[center_40%] rounded-4xl bg-[url('/backgrounds/mountains.jpg')] flex flex-col justify-center items-center text-center">
+            class="h-full w-full bg-fit bg-cover bg-position-[center_40%] rounded-4xl flex flex-col justify-center items-center text-center" :style="{ backgroundImage: `url(${mountainsImage})` }">
             <div
                 class="text-[#fff] font-rubik uppercase text-[10dvw] xl:text-[13dvh] leading-none flex flex-col justify-center items-center ">
                 <p class="flex h-[8.4dvw] xl:h-[11dvh] ">In order</p>
