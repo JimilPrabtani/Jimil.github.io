@@ -54,5 +54,13 @@
         "background": "/projects/sea-cracker/background.jpg",
         "mobile_pic": "/projects/python-p/python.png",
         "desktop_pic": "/projects/python-p/python.png"
+    },
+    {
+        "title": "Phishing Simulation Tool",
+        "description": "A Flask-based phishing simulation platform designed for security awareness training. This tool allows security teams to run controlled phishing campaigns, track who clicks simulated phishing links, and use the results to educate employees — all within a safe, ethical environment. For Ethical Use Only!",
+        "link": "https://github.com/JimilPrabtani/-Phishing-Awareness-Simulation-Tool-",
+        "background": "/projects/sea-cracker/background.jpg",
+        "mobile_pic": "/projects/phishing-sim-tool/tool.png",
+        "desktop_pic": "/projects/phishing-sim-tool/tool.png"
     }
 ]
