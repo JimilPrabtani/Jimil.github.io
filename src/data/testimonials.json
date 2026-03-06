@@ -3,18 +3,18 @@
         "writer_image": "/testimonials/man-1.jpg",
         "writer_position": "Security Team Lead at ProSec India",
         "stars": 5,
-        "description": "As a Network Security Engineer intern, they demonstrated exceptional technical aptitude and eagerness to learn. Their ability to quickly grasp complex security concepts and apply them to real-world scenarios was impressive. They consistently delivered quality work on firewall configurations, SIEM deployments, and vulnerability assessments. A valuable addition to any security team."
+        "description": "They didn't just learn — they applied. As a Network Security Engineer intern, they picked up complex firewall configurations, SIEM deployments, and vulnerability assessments faster than most junior engineers I've seen. They delivered quality work, asked the right questions, and needed minimal oversight. That's rare at this level."
     },
     {
         "writer_image": "/testimonials/man-2.jpg",
         "writer_position": "Safety Manager at Co-op Refinery Complex",
         "stars": 5,
-        "description": "During their time with us, they showed outstanding attention to detail and commitment to safety compliance. Their diligence in performing safety checks, enforcing PPE usage, and monitoring regulations was exemplary. They brought the same discipline and precision that's essential in both safety-critical environments and cybersecurity roles."
+        "description": "In a refinery, the cost of missing a detail is measured in lives. They understood that. Their commitment to safety compliance — checking equipment, enforcing PPE standards, monitoring regulations — was exactly what a high-risk environment demands. That kind of discipline doesn't turn off when you switch industries."
     },
     {
         "writer_image": "/testimonials/man-3.jpg",
         "writer_position": "CTF Community Member",
         "stars": 5,
-        "description": "I've worked with them on several Hack The Box challenges and CTF competitions. Their methodical approach to problem-solving and deep understanding of offensive security techniques is remarkable. They excel at privilege escalation, exploit development, and thinking outside the box. A skilled penetration tester with a bright future in cybersecurity."
+        "description": "I've run Hack The Box challenges with a lot of people. Most try techniques they've memorized. They think. They map the system, find what's unexpected, and build the exploit chain step by step. Privilege escalation, container breakout, lateral movement — they do it the way it actually works in the real world."
     }
 ]

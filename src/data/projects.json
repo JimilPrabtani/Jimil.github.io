@@ -1,7 +1,7 @@
 [
     {
         "title": "Azure Security Project 1",
-        "description": "Implemented a comprehensive network security infrastructure using Azure Firewall as part of AZ-500 certification preparation. Designed and deployed Azure Firewall within a virtual network architecture, created custom route tables to force all outbound traffic through the firewall for centralized inspection, and configured Application Rules with whitelist policies. Implemented Network Rules for DNS traffic management and validated security policies through RDP connections and real-time traffic blocking tests. This lab reinforced enterprise-level cloud security concepts critical for securing cloud workloads.",
+        "description": "Unauthorized outbound traffic is how attackers exfiltrate data. This project sealed that vector. Deployed Azure Firewall in a hub-spoke virtual network, rerouted all outbound traffic through centralized inspection using custom route tables, and locked access with application whitelist rules and DNS network policies. Validated every rule — confirmed traffic was blocked in real time via RDP test connections. Built against the same architecture protecting enterprise Azure workloads.",
         "link": "#",
         "background": "/backgrounds/mountains.jpg",
         "mobile_pic": "/projects/portfolio/contact.png",
@@ -9,7 +9,7 @@
     },
     {
         "title": "Azure Security Project 2",
-        "description": "Deployed and managed a production-grade Kubernetes cluster on Azure as part of AZ-500 certification training. Created an Azure Container Registry (ACR) to store Docker images, configured AcrPull role assignments for secure image pulling, and provisioned a managed AKS cluster. Containerized NGINX applications and deployed both external and internal services within the Kubernetes environment, implementing network policies and service exposure configurations. Demonstrated proficiency in container orchestration, microservices architecture, Azure resource management, and cloud-native security practices.",
+        "description": "A container cluster with misconfigured access controls is an open door. This project locked it. Built a production-grade AKS cluster on Azure, connected it to a private Container Registry (ACR), and restricted image pulls to an AcrPull RBAC role assignment. Deployed containerized NGINX services with separate internal and external exposure configurations and applied network policies to restrict pod-to-pod communication. Mirrors the security posture of cloud-native workloads at scale.",
         "link": "#",
         "background": "/backgrounds/mountains.jpg",
         "mobile_pic": "/projects/portfolio/contact.png",
@@ -17,7 +17,7 @@
     },
     {
         "title": "Azure Security Project 3",
-        "description": "Completed hands-on labs for Microsoft Azure Security certification. Configured virtual networks, deployed VMs with security monitoring, and implemented Log Analytics workspaces. Set up Microsoft Sentinel for threat detection and integrated Microsoft Defender for Cloud. Demonstrated cloud security best practices and incident management using Bicep and PowerShell.",
+        "description": "Covered the full Azure security stack end to end. Configured virtual networks, deployed monitored VMs, and built a Log Analytics workspace from scratch. Connected Microsoft Sentinel for threat detection and Defender for Cloud for continuous security posture scoring. Automated infrastructure deployment using Bicep and PowerShell. Every component reflects what security engineers manage in production Azure environments.",
         "link": "https://github.com/JimilPrabtani/AZ500-AzureSecurityTechnologies",
         "background": "/backgrounds/mountains.jpg",
         "mobile_pic": "/projects/AKS/AZ500.jpg",
@@ -25,7 +25,7 @@
     },
     {
         "title": "Advanced HTB Machines",
-        "description": "Completed advanced Hack The Box machines demonstrating offensive security expertise. Giveback: exploited a modern WordPress CVE, abused PHP-CGI and Kubernetes tokens, decoded secrets, pivoted via SSH, and escaped container isolation to root the box. Eloquia: exploited an admin panel, weaponized file upload with a DLL, used SQLite load_extension for RCE, then pivoted to Windows service hijacking for SYSTEM-level access. These challenges strengthened penetration testing skills, privilege escalation techniques, and attack chaining methodologies.",
+        "description": "Real attackers chain exploits — one vulnerability rarely hands over the keys. These machines demanded layered attack chains. Giveback: found a live WordPress CVE, abused PHP-CGI, extracted a Kubernetes service account token, decoded embedded secrets, pivoted via SSH, and escaped container isolation to reach root. Eloquia: exploited an admin panel, weaponized a file upload with a malicious DLL, used SQLite load_extension for remote code execution, then hijacked a Windows service to reach SYSTEM. Both required the same thinking a real attacker uses — and the same thinking a security team needs to defend against.",
         "link": "https://www.notion.so/buddy99/Hack-The-Box-Write-Ups-2a2cd1e88ffe8019a66bf23aa046c566?source=copy_link",
         "background": "/projects/find-your-tribe/background.jpg",
         "mobile_pic": "/projects/find-your-tribe/map.png",
@@ -33,7 +33,7 @@
     },
     {
         "title": "Cybersecurity Home Lab with Wazuh SIEM",
-        "description": "Built a comprehensive cybersecurity monitoring environment using Wazuh SIEM to monitor two Windows endpoints from Kali Linux. Implemented real-time file integrity monitoring, automated vulnerability scans, and alerting for suspicious activity. This hands-on lab demonstrated practical SIEM deployment, log correlation, incident detection, and security monitoring workflows essential for SOC analyst and security engineering roles. The project strengthened my understanding of defensive security, threat detection, and incident response procedures.",
+        "description": "Most breaches go undetected for months. This project built the infrastructure to catch them faster. Deployed Wazuh SIEM to monitor two Windows endpoints from a Kali Linux server — capturing real-time file integrity changes, running automated vulnerability scans, and generating alerts on suspicious activity. Built the full detection pipeline: log ingestion, correlation rules, and alerting. The same workflow runs in SOC environments monitoring thousands of endpoints.",
         "link": "#",
         "background": "/projects/sprunk/background.jpg",
         "mobile_pic": "/projects/sprunk/web.png",
@@ -41,7 +41,7 @@
     },
     {
         "title": "Network Security Homelab with pfSense",
-        "description": "Built a virtual multi-network environment with pfSense as the core firewall between WAN and LAN to understand network security fundamentals. Simulated SYN flood attacks from Kali Linux, analyzed traffic patterns using Wireshark, and implemented firewall rules to block malicious traffic. This project provided hands-on experience with network segmentation, traffic analysis, attack simulation, and defense mechanisms. It reinforced practical skills in routing, switching, packet analysis, and firewall configuration essential for network security roles.",
+        "description": "A SYN flood attack can take a server offline in minutes. This project tested that — then stopped it. Built a virtual multi-network environment using pfSense as the perimeter firewall, launched a live SYN flood from Kali Linux, captured the traffic in Wireshark to see exactly what the attack looked like, then wrote firewall rules that blocked it. Attack traffic dropped to zero. Hands-on proof of network segmentation, traffic analysis, and real-time defense.",
         "link": "#",
         "background": "/projects/sea-cracker/background.jpg",
         "mobile_pic": "/projects/sea-cracker/answer.png",
@@ -49,7 +49,7 @@
     },
     {
         "title": "Python Projects",
-        "description": "A collection of Python projects demonstrating core programming concepts, data structures, and practical problem-solving. Built various applications and scripts showcasing Python fundamentals, object-oriented programming, and automation.",
+        "description": "A collection of Python scripts and applications built to sharpen core programming and automation skills. Covers data structures, object-oriented design, and practical problem-solving — the foundation for writing security automation tools, custom integrations, and rapid prototyping.",
         "link": "https://github.com/JimilPrabtani/python-learning-projects",
         "background": "/projects/sea-cracker/background.jpg",
         "mobile_pic": "/projects/python-p/python.png",
@@ -57,7 +57,7 @@
     },
     {
         "title": "Phishing Simulation Tool",
-        "description": "A Flask-based phishing simulation platform designed for security awareness training. This tool allows security teams to run controlled phishing campaigns, track who clicks simulated phishing links, and use the results to educate employees — all within a safe, ethical environment. For Ethical Use Only!",
+        "description": "People click phishing links — that's the reality. This tool makes sure teams know it before attackers do. A Flask-based platform that runs controlled phishing campaigns inside an organization, tracks exactly who clicks simulated phishing links, and delivers targeted education to those users. Built for security awareness teams to measure human risk and reduce it. Ethical use only.",
         "link": "https://github.com/JimilPrabtani/-Phishing-Awareness-Simulation-Tool-",
         "background": "/projects/sea-cracker/background.jpg",
         "mobile_pic": "/projects/phishing-sim-tool/tool.png",

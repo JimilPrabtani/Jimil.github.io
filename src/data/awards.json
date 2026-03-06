@@ -1,24 +1,22 @@
 [
     {
         "title": "CompTIA Network+ Certified",
-        "description": "Vendor-neutral certification covering networking concepts, infrastructure, network operations, security, and troubleshooting. Validates skills in designing, configuring, managing, and troubleshooting wired and wireless networks, essential for network security roles.",
+        "description": "Validates end-to-end networking knowledge: design, configuration, management, and troubleshooting — across wired and wireless environments. Vendor-neutral, meaning the skills apply across any stack, not just one vendor's ecosystem. The baseline for any serious network security role.",
         "date": "Sep 2025"
     },
     {
         "title": "CompTIA Security+ Certified",
-        "description": "Industry-recognized certification validating foundational cybersecurity knowledge including threats, attacks, vulnerabilities, security architecture, operations, and risk management. Demonstrates competency in securing networks and identifying security vulnerabilities.",
+        "description": "The global baseline for cybersecurity competency. Covers how attacks work, how defenses fail, and how to build systems that hold. Recognized by the U.S. Department of Defense under Directive 8570. Passing it means understanding threats from both sides of the perimeter.",
         "date": "Oct 2025"
     },
     {
         "title": "Network Security Fundamentals",
-        "description": "Completed comprehensive training on Palo Alto Networks' next-generation firewall technology. This certification provided critical context for understanding enterprise-grade network security solutions.",
+        "description": "Palo Alto Networks builds firewalls deployed in some of the world's most demanding network environments. This certification covers their next-generation firewall architecture — application-layer inspection, threat prevention, URL filtering, and user-based policies. Practical context for the tools running in enterprise and government networks.",
         "date": "Feb 2026"
     },
     {
         "title": "Advent of Cyber 2025",
-        "description": "Completed TryHackMe's comprehensive 24-day cybersecurity challenge covering offensive security, defensive security, and incident response. Demonstrated skills in Linux fundamentals, web application security, network enumeration, log analysis, cloud & AI security, and attack simulation.",
+        "description": "A 24-day intensive cybersecurity challenge covering the full attack-defense spectrum. Topics included Linux exploitation, web application attacks, network enumeration, log analysis, cloud security, and AI threat modeling. Completed every challenge — proof of breadth across core cybersecurity domains, not just depth in one area.",
         "date": "Dec 2025"
     }
-    
-    
 ]
