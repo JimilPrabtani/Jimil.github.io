@@ -2,14 +2,14 @@
     {
         "image": "/about/kid.png",
         "when": "Early passion for technology",
-        "description": "Growing up, I was always fascinated by how systems work and how they could be broken or made. This curiosity led me to explore computers, networks, and eventually cybersecurity.",
+        "description": "Growing up, I was always fascinated by how systems work and how they could be broken or made. This curiosity led me to explore Systems and Civil engineering, Architecture and eventually led me to Cybersecurity.",
         "from": "Early Years",
         "to": "2023"
     },
     {
         "image": "/about/teen.png",
         "when": "Building the foundation",
-        "description": "I pursued my Bachelor's in Software Systems Engineering at the University of Regina where I developed strong fundamentals in networking and security. During this time, I gained hands-on experience through various roles from safety compliance at Co-op Refinery Complex to warehouse operations, which taught me discipline, attention to detail, and teamwork in high-risk environments.",
+        "description": "I pursued my Bachelor's in Software Systems Engineering at the University of Regina where I developed strong fundamentals in Security and Systems Architecture engineering. During this time, I gained hands-on experience through various roles from safety compliance at Co-op Refinery Complex to warehouse operations, which taught me discipline, attention to detail, and teamwork in high-risk environments.",
         "from": "2023",
         "to": "2025"
     },
