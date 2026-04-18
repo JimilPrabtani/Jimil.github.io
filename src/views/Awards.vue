@@ -1,6 +1,6 @@
 <script setup>
 import FramedMainSection from '@/layouts/FramedMainSection.vue';
-import awards from '@/data/Awards.json';
+import awards from '@/data/awards.json';
 import Parallax from '@/components/Parallax.vue';
 </script>
 

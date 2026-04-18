@@ -1,6 +1,6 @@
 <script setup>
 import FramedMainSection from '@/layouts/FramedMainSection.vue'
-import stories from '@/data/About-me.json'
+import stories from '@/data/about-me.json'
 import roomImage from '/backgrounds/room.jpg';
 </script>
 

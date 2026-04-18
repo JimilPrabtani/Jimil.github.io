@@ -3,7 +3,7 @@ import { onMounted, ref, onBeforeUnmount } from 'vue';
 import FramedMainSection from '@/layouts/FramedMainSection.vue';
 import { useScrollContext } from '@/composables/useScrollContext'
 import { AnimatedComponent } from '@/services/AnimatedComponent';
-import contact from '@/data/Contact.json'
+import contact from '@/data/contact.json'
 import CustomA from '@/components/CustomA.vue';
 import Parallax from '@/components/Parallax.vue';
 
