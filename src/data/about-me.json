@@ -9,14 +9,14 @@
     {
         "image": "/about/teen.png",
         "when": "Building the foundation",
-        "description": "I studied Software Systems Engineering at the University of Regina. Alongside coursework, I worked safety compliance at a refinery — where a missed check could cost lives. That environment taught me something no classroom does: attention to detail isn't optional when the stakes are high. That mindset transferred directly to security.",
+        "description": "I studied Software Systems Engineering at the University of Regina, Canada. Alongside coursework, I worked safety compliance at Co-op Refinery Complex — where a missed check could cost lives. That environment taught me something no classroom does: attention to detail isn't optional when the stakes are high. That mindset transferred directly to security.",
         "from": "2023",
         "to": "2025"
     },
     {
         "image": "/about/adult.png",
         "when": "Today",
-        "description": "I'm a Network Security Engineer Intern at ProSec India, deploying firewalls, VPNs, IDS/IPS, and SIEM solutions on live enterprise infrastructure. Outside work, I build home labs — Wazuh SIEM, pfSense firewalls, Azure security stacks — and compete on Hack The Box and TryHackMe to stay sharp on the offensive side. I'm pursuing the AZ-500 certification and looking for roles in security engineering, SOC analysis, or cloud security.",
+        "description": "I completed a Network Security Engineering internship at ProSec Telecommunications in Canada, deploying Cisco firewalls, IPsec VPNs, EIGRP/OSPF/BGP routing, and SIEM solutions on live enterprise infrastructure. I hold AZ-500, CompTIA Security+, CompTIA Network+, and Palo Alto certifications. Outside work, I build home labs — Wazuh SIEM, pfSense, Azure security stacks — and compete on Hack The Box and TryHackMe. Authorized to work in Canada until 2028.",
         "from": "2025",
         "to": "Today"
     }

@@ -1,5 +1,10 @@
 [
     {
+        "title": "AZ-500 — Azure Security Engineer Associate",
+        "description": "Microsoft's professional-level certification for cloud security engineering on Azure. Validates hands-on mastery of Defender for Cloud, Microsoft Sentinel SIEM/SOAR, Key Vault, Entra ID, PIM, Conditional Access, WAFv2, and secure workload deployment. The gold standard for Azure security roles.",
+        "date": "2026"
+    },
+    {
         "title": "CompTIA Network+ Certified",
         "description": "Validates end-to-end networking knowledge: design, configuration, management, and troubleshooting — across wired and wireless environments. Vendor-neutral, meaning the skills apply across any stack, not just one vendor's ecosystem. The baseline for any serious network security role.",
         "date": "Sep 2025"
@@ -10,9 +15,14 @@
         "date": "Oct 2025"
     },
     {
-        "title": "Network Security Fundamentals",
+        "title": "Palo Alto Network Security Fundamentals",
         "description": "Palo Alto Networks builds firewalls deployed in some of the world's most demanding network environments. This certification covers their next-generation firewall architecture — application-layer inspection, threat prevention, URL filtering, and user-based policies. Practical context for the tools running in enterprise and government networks.",
         "date": "Feb 2026"
+    },
+    {
+        "title": "Palo Alto Cloud Security Fundamentals",
+        "description": "Covers cloud-native security architecture, CSPM, workload protection, and Palo Alto's Prisma Cloud platform. Validates understanding of securing multi-cloud environments across AWS, Azure, and GCP — threat prevention, compliance posture, and runtime defense at cloud scale.",
+        "date": "Mar 2026"
     },
     {
         "title": "Advent of Cyber 2025",

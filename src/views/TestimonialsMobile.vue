@@ -1,6 +1,6 @@
 <script setup>
 import FramedMainSection from '@/layouts/FramedMainSection.vue';
-import testimonials from '@/data/testimonials.json';
+import testimonials from '@/data/Testimonials.json';
 import TestimonialWriterCard from '@/components/TestimonialWriterCard.vue';
 import skyImage from '/backgrounds/sky.jpg';
 </script>

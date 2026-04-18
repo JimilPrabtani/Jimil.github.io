@@ -7,7 +7,10 @@ const props = defineProps({
     target: { type: String, default: "" }
 });
 
-const letters = computed(() => props.text.split('').map(l => l === ' ' ? '\u00A0' : l));
+const letters = computed(() => {
+    const text = props.text.charAt(0).toUpperCase() + props.text.slice(1)
+    return text.split('').map(l => l === ' ' ? '\u00A0' : l)
+});
 </script>
 
 <template>

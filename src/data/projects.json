@@ -1,8 +1,8 @@
 [
     {
-        "title": "Azure Security Project 1",
+        "title": "Azure Secure Workload — Defense-in-Depth",
         "description": "Unauthorized outbound traffic is how attackers exfiltrate data. This project sealed that vector. Deployed Azure Firewall in a hub-spoke virtual network, rerouted all outbound traffic through centralized inspection using custom route tables, and locked access with application whitelist rules and DNS network policies. Validated every rule — confirmed traffic was blocked in real time via RDP test connections. Built against the same architecture protecting enterprise Azure workloads.",
-        "link": "#",
+        "link": "https://github.com/JimilPrabtani/AZ500-AzureSecurityTechnologies",
         "background": "/backgrounds/mountains.jpg",
         "mobile_pic": "/projects/portfolio/contact.png",
         "desktop_pic": "/projects/portfolio/firewall.jpg"
@@ -10,7 +10,7 @@
     {
         "title": "Azure Security Project 2",
         "description": "A container cluster with misconfigured access controls is an open door. This project locked it. Built a production-grade AKS cluster on Azure, connected it to a private Container Registry (ACR), and restricted image pulls to an AcrPull RBAC role assignment. Deployed containerized NGINX services with separate internal and external exposure configurations and applied network policies to restrict pod-to-pod communication. Mirrors the security posture of cloud-native workloads at scale.",
-        "link": "#",
+        "link": "https://github.com/JimilPrabtani/AZ500-AzureSecurityTechnologies",
         "background": "/backgrounds/mountains.jpg",
         "mobile_pic": "/projects/portfolio/contact.png",
         "desktop_pic": "/projects/AKS/aks1.png"
@@ -32,6 +32,14 @@
         "desktop_pic": "/projects/find-your-tribe/bg22.png"
     },
     {
+        "title": "AI-Powered Code Vulnerability Scanner",
+        "description": "Security reviews are slow — attackers aren't. Built an AI-powered code vulnerability scanner using Google Gemini that detects weaknesses across source code and auto-generates remediation guidance, applying GenAI/LLM security concepts to security automation tooling. Demonstrates practical application of agentic AI to the software development lifecycle, closing the gap between code shipping and security review.",
+        "link": "https://github.com/JimilPrabtani/Vulnerability-scanner",
+        "background": "/projects/find-your-tribe/background.jpg",
+        "mobile_pic": "/projects/find-your-tribe/map.png",
+        "desktop_pic": "/projects/find-your-tribe/AI-scanner.png"
+    },
+    {
         "title": "Cybersecurity Home Lab with Wazuh SIEM",
         "description": "Most breaches go undetected for months. This project built the infrastructure to catch them faster. Deployed Wazuh SIEM to monitor two Windows endpoints from a Kali Linux server — capturing real-time file integrity changes, running automated vulnerability scans, and generating alerts on suspicious activity. Built the full detection pipeline: log ingestion, correlation rules, and alerting. The same workflow runs in SOC environments monitoring thousands of endpoints.",
         "link": "#",
@@ -41,19 +49,11 @@
     },
     {
         "title": "Network Security Homelab with pfSense",
-        "description": "A SYN flood attack can take a server offline in minutes. This project tested that — then stopped it. Built a virtual multi-network environment using pfSense as the perimeter firewall, launched a live SYN flood from Kali Linux, captured the traffic in Wireshark to see exactly what the attack looked like, then wrote firewall rules that blocked it. Attack traffic dropped to zero. Hands-on proof of network segmentation, traffic analysis, and real-time defense.",
+        "description": "A SYN flood attack can take a server offline in minutes. This project tested that — then stopped it. Built a virtual multi-network environment using pfSense as the perimeter firewall, launched a live SYN flood from Kali Linux, captured the traffic in Wireshark to see exactly what the attack looked like, then wrote firewall rules that blocked it. Also built a site-to-site IPsec VPN in GNS3 with AES-256 encryption and SHA-512 hashing, simulating secure branch-to-HQ communication over an untrusted internet segment.",
         "link": "#",
         "background": "/projects/sea-cracker/background.jpg",
         "mobile_pic": "/projects/sea-cracker/answer.png",
         "desktop_pic": "/projects/sea-cracker/pfsense.jpg"
-    },
-    {
-        "title": "Python Projects",
-        "description": "A collection of Python scripts and applications built to sharpen core programming and automation skills. Covers data structures, object-oriented design, and practical problem-solving — the foundation for writing security automation tools, custom integrations, and rapid prototyping.",
-        "link": "https://github.com/JimilPrabtani/python-learning-projects",
-        "background": "/projects/sea-cracker/background.jpg",
-        "mobile_pic": "/projects/python-p/python.png",
-        "desktop_pic": "/projects/python-p/python.png"
     },
     {
         "title": "Phishing Simulation Tool",
@@ -62,5 +62,13 @@
         "background": "/projects/sea-cracker/background.jpg",
         "mobile_pic": "/projects/phishing-sim-tool/tool.png",
         "desktop_pic": "/projects/phishing-sim-tool/tool.png"
+    },
+    {
+        "title": "Python Security Tooling & Automation",
+        "description": "A collection of Python scripts and security automation tools — including a CLI-based network analyzer with vulnerability detection, alert deduplication and PDF reporting; and broader Python learning projects covering data structures, object-oriented design, and practical problem-solving. The foundation for writing security automation tools, custom integrations, and rapid prototyping in any security role.",
+        "link": "https://github.com/JimilPrabtani/python-learning-projects",
+        "background": "/projects/sea-cracker/background.jpg",
+        "mobile_pic": "/projects/python-p/python.png",
+        "desktop_pic": "/projects/python-p/python.png"
     }
 ]

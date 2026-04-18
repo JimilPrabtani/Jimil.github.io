@@ -1,9 +1,9 @@
 [
     {
         "writer_image": "/testimonials/man-1.jpg",
-        "writer_position": "Security Team Lead at ProSec India",
+        "writer_position": "Security Team Lead at ProSec Telecommunications",
         "stars": 5,
-        "description": "They didn't just learn — they applied. As a Network Security Engineer intern, they picked up complex firewall configurations, SIEM deployments, and vulnerability assessments faster than most junior engineers I've seen. They delivered quality work, asked the right questions, and needed minimal oversight. That's rare at this level."
+        "description": "They didn't just learn — they applied. As a Network Security Engineer intern, they picked up complex Cisco firewall configurations, EIGRP/OSPF/BGP routing, IPsec VPN deployments, and packet analysis faster than most junior engineers I've seen. They delivered quality work, asked the right questions, and needed minimal oversight. That's rare at this level."
     },
     {
         "writer_image": "/testimonials/man-2.jpg",

@@ -1,7 +1,7 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 import FramedMainSection from '@/layouts/FramedMainSection.vue'
-import testimonials from '@/data/testimonials.json'
+import testimonials from '@/data/Testimonials.json'
 import RotateOnScroll from '@/components/RotateOnScroll.vue'
 import TestimonialWriterCard from '@/components/TestimonialWriterCard.vue';
 import skyImage from '/backgrounds/sky.jpg';
