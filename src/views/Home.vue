@@ -51,7 +51,7 @@ onMounted(() => {
             </ul>
 
             <div class="flex flex-wrap justify-center gap-4 pt-[2dvh] font-ledger">
-                <a href="/public/resume.pdf" target="_blank" rel="noopener"
+                <a href="/resume.pdf" target="_blank" rel="noopener"
                     class="bg-red-custom text-white rounded-full px-6 py-3 text-sm md:text-base hover:brightness-110 transition-all">
                     Download Resume
                 </a>
