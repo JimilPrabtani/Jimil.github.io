@@ -29,9 +29,9 @@ const setCursorPos = (e) => {
   if (e instanceof MouseEvent) setPositions(e.clientX, e.clientY);
 }
 
-onMounted(async () => {
+onMounted(() => {
   const trackerUrl = import.meta.env.VITE_TRACKER_URL;
-  if (trackerUrl) await fetch(trackerUrl)
+  if (trackerUrl) fetch(trackerUrl).catch(() => {})
   component.value = new AnimatedComponent();
   component.value.tick = setCursorPos;
   component.value.addAnimationTrigger(window, "mousemove");
@@ -45,7 +45,7 @@ onMounted(async () => {
 <template>
   <section id="loading"
     class="outline-[100dvw] outline-white rounded-[999px] bg-transparent h-0 w-0 fixed top-1/2 left-1/2 z-[100] -translate-1/2 flex items-center justify-center">
-    <span class="absolute font-ledger h-40 w-96 flex justify-center items-center">Howdy!👋, The System is loading...</span>
+    <span class="absolute font-ledger h-40 w-96 flex justify-center items-center">Howdy! 👋 Loading the system...</span>
   </section>
   <ScrollBar />
   <LiquidFilter />
@@ -68,11 +68,11 @@ onMounted(async () => {
 
 <style scoped>
 #loading {
-  animation: 1.5s resize 3s ease-in-out forwards,
-    0s hide 4s forwards;
+  animation: 0.9s resize 0.6s ease-in-out forwards,
+    0s hide 1.5s forwards;
 
   span {
-    animation: 1s hide 2s forwards;
+    animation: 0.4s hide 0.5s forwards;
   }
 }
 

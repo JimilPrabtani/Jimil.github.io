@@ -11,8 +11,8 @@ const emit = defineEmits(['toggle', 'hover', 'leave']);
 <template>
   <div class="flex-1 flex flex-col w-full " @mouseover="emit('hover')" @mouseleave="emit('leave')">
 
-    <div
-      class="flex-1 group relative p-4 w-full items-center font-rubik cursor-pointer text-xl lg:text-[2dvw] overflow-hidden transition-all"
+    <button type="button" :aria-expanded="props.open"
+      class="flex-1 group relative p-4 w-full items-center font-rubik cursor-pointer text-xl lg:text-[2dvw] overflow-hidden transition-all text-left"
       @click="emit('toggle')">
       <!-- black overlay -->
       <div
@@ -27,7 +27,7 @@ const emit = defineEmits(['toggle', 'hover', 'leave']);
           <ArrowIcon class="block transition-all" :class="props.open ? 'rotate-90' : 'rotate-0'" />
         </div>
       </div>
-    </div>
+    </button>
 
     <div class="w-full overflow-hidden bg-black text-white" :class="props.open ? 'h-auto' : 'h-0'">
       <slot name="content"></slot>

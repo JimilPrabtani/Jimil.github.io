@@ -16,7 +16,7 @@
     {
         "image": "/about/adult.png",
         "when": "Today",
-        "description": "I completed a Network Security Engineering internship at ProSec Telecommunications in Canada, deploying Cisco firewalls, IPsec VPNs, EIGRP/OSPF/BGP routing, and SIEM solutions on live enterprise infrastructure. I hold AZ-500, CompTIA Security+, CompTIA Network+, and Palo Alto certifications. Outside work, I build home labs — Wazuh SIEM, pfSense, Azure security stacks — and compete on Hack The Box and TryHackMe. Authorized to work in Canada until 2028.",
+        "description": "I completed a Network Security Engineering internship at ProSec Telecommunications in Canada, deploying Cisco firewalls, IPsec VPNs, EIGRP/OSPF/BGP routing, and SIEM solutions on live enterprise infrastructure. I hold AZ-500, AZ-700, CompTIA Security+, CompTIA Network+, and Palo Alto certifications. Outside work, I build home labs — Wazuh SIEM, pfSense, Azure security stacks — and compete on Hack The Box and TryHackMe. Authorized to work in Canada until 2028.",
         "from": "2025",
         "to": "Today"
     }

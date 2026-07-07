@@ -13,6 +13,17 @@ const navContainerRef = ref();
 const currentSection = ref();
 const isMobileMenuOpened = ref(false);
 
+const sectionLabels = {
+    'Jimil': 'Home',
+    'about-me': 'About',
+    'projects': 'Projects',
+    'Certificates': 'Certifications',
+    'testimonials': 'Testimonials',
+    'contact': 'Contact'
+};
+
+const labelFor = (id) => id ? (sectionLabels[id] ?? id.replace('-', ' ')) : '';
+
 const scrollTo = (e, section) => {
     e.preventDefault();
     scroll(section);
@@ -21,7 +32,7 @@ const scrollTo = (e, section) => {
 const computeIndicator = () => {
     const navChildren = navContainerRef.value.children;
 
-    for (let i = 0; i <= navChildren.length - 1; i++) {
+    for (let i = 0; i <= getSections().length - 1; i++) {
         const sectionRect = getSections()[i].el.getBoundingClientRect();
         const relativeRelScroll = -1 * Math.round(sectionRect.top);
         const sectionHeight = Math.round(sectionRect.height);
@@ -62,14 +73,16 @@ onBeforeUnmount(() => {
         class="text-white fixed pointer-events-none flex-col top-[4dvw] z-50 rounded-3xl filter before:rounded-3xl backdrop-filter-[url('#liquidFilter')]">
                 <div class="absolute inset-0 w-full h-full bg-black opacity-25 -z-10 rounded-3xl"></div>
         <div ref="navContainerRef" class="hidden md:flex gap-4 p-4 relative">
-            <CustomA v-for="(s, si) in getSections()" :key="s.id" :text="s.id.replace('-', ' ')" href="" @click="(e) => scrollTo(e, s.el)"
+            <CustomA v-for="(s, si) in getSections()" :key="s.id" :text="labelFor(s.id)" :href="`#${s.id}`" @click="(e) => scrollTo(e, s.el)"
                 class="navLink pointer-events-auto relative after:content-[''] after:h-[1px] after:left-0 after:bottom-0 after:absolute after:bg-white"
                 :class="{ 'after:transition-all after:duration-300': si === getSections().length - 1 }" />
+            <CustomA text="Resume" href="/resume.pdf" target="_blank"
+                class="pointer-events-auto relative text-red-custom" />
         </div>
 
         <div class="flex md:hidden relative gap-4 transition-all p-4 cursor-pointer rounded-3xl pointer-events-auto" @click="isMobileMenuOpened = true">
             <BurgerIcon />
-            <span>{{ currentSection }}</span>
+            <span>{{ labelFor(currentSection) }}</span>
         </div>
 
     </nav>
@@ -79,10 +92,16 @@ onBeforeUnmount(() => {
         <div class="h-full w-full flex flex-col items-center text-white p-16 font-rubik z-0">
             <CrossIcon class="absolute top-4 left-4 h-12 w-12 cursor-pointer" @click="isMobileMenuOpened = false" />
             <span v-for="s in getSections()" :key="s.id" class="flex-1 flex items-center">
-                <a href="" @click="(e) => { scrollTo(e, s.el); isMobileMenuOpened = false }"
+                <a :href="`#${s.id}`" @click="(e) => { scrollTo(e, s.el); isMobileMenuOpened = false }"
                     class="text-3xl flex items-center justify-center transition-all cursor-pointer pointer-events-auto"
                     :class="{ 'text-red-custom': s.id === currentSection }">
-                    {{ s.id }}
+                    {{ labelFor(s.id) }}
+                </a>
+            </span>
+            <span class="flex-1 flex items-center">
+                <a href="/resume.pdf" target="_blank" rel="noopener"
+                    class="text-3xl flex items-center justify-center transition-all cursor-pointer pointer-events-auto text-red-custom">
+                    Resume
                 </a>
             </span>
         </div>

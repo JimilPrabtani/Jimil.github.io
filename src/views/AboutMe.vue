@@ -88,8 +88,8 @@ onBeforeUnmount(() => {
                         <div ref="contentRef" class="h-full w-full transition-transform duration-400 text-white">
                             <div v-for="story in stories" class="h-full w-full aspect-square flex items-end justify-start gap-4">
                                 <div class="flex gap-1 flex-col max-w-lg ml-0 md:ml-[6dvw] lg:ml-[12dvw]">
-                                    <h1 class="font-bold text-sm md:text-base leading-tight font-rubik">{{ story.when }}</h1>
-                                    <p class="text-xs leading-relaxed">
+                                    <h3 class="font-bold text-sm md:text-base leading-tight font-rubik">{{ story.when }}</h3>
+                                    <p class="text-sm leading-relaxed">
                                         {{ story.description }}
                                     </p>
                                 </div>

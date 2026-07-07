@@ -1,74 +1,119 @@
 [
     {
-        "title": "Azure Secure Workload — Defense-in-Depth",
+        "title": "Azure Hub-Spoke Egress Lockdown — Firewall & Defense-in-Depth",
         "description": "Unauthorized outbound traffic is how attackers exfiltrate data. This project sealed that vector. Deployed Azure Firewall in a hub-spoke virtual network, rerouted all outbound traffic through centralized inspection using custom route tables, and locked access with application whitelist rules and DNS network policies. Validated every rule — confirmed traffic was blocked in real time via RDP test connections. Built against the same architecture protecting enterprise Azure workloads.",
+        "tags": ["Azure Firewall", "Hub-Spoke VNet", "Route Tables", "DNS Policies"],
         "link": "https://github.com/JimilPrabtani/AZ500-AzureSecurityTechnologies",
         "background": "/backgrounds/mountains.jpg",
         "mobile_pic": "/projects/portfolio/contact.png",
         "desktop_pic": "/projects/portfolio/firewall.jpg"
     },
     {
-        "title": "Azure Security Project 2",
+        "title": "Hardened AKS Cluster — Private ACR, RBAC & Network Policies",
         "description": "A container cluster with misconfigured access controls is an open door. This project locked it. Built a production-grade AKS cluster on Azure, connected it to a private Container Registry (ACR), and restricted image pulls to an AcrPull RBAC role assignment. Deployed containerized NGINX services with separate internal and external exposure configurations and applied network policies to restrict pod-to-pod communication. Mirrors the security posture of cloud-native workloads at scale.",
+        "tags": ["AKS", "Kubernetes", "ACR", "RBAC", "Network Policies"],
         "link": "https://github.com/JimilPrabtani/AZ500-AzureSecurityTechnologies",
         "background": "/backgrounds/mountains.jpg",
         "mobile_pic": "/projects/portfolio/contact.png",
-        "desktop_pic": "/projects/AKS/aks1.png"
+        "desktop_pic": "/projects/AKS/aks1.jpg"
     },
     {
-        "title": "Azure Security Project 3",
+        "title": "Azure Threat Detection Stack — Sentinel, Defender & Bicep",
         "description": "Covered the full Azure security stack end to end. Configured virtual networks, deployed monitored VMs, and built a Log Analytics workspace from scratch. Connected Microsoft Sentinel for threat detection and Defender for Cloud for continuous security posture scoring. Automated infrastructure deployment using Bicep and PowerShell. Every component reflects what security engineers manage in production Azure environments.",
+        "tags": ["Microsoft Sentinel", "Defender for Cloud", "Log Analytics", "Bicep", "PowerShell"],
         "link": "https://github.com/JimilPrabtani/AZ500-AzureSecurityTechnologies",
         "background": "/backgrounds/mountains.jpg",
         "mobile_pic": "/projects/AKS/AZ500.jpg",
         "desktop_pic": "/projects/AKS/AZ500.jpg"
     },
     {
-        "title": "Advanced HTB Machines",
-        "description": "Real attackers chain exploits — one vulnerability rarely hands over the keys. These machines demanded layered attack chains. Giveback: found a live WordPress CVE, abused PHP-CGI, extracted a Kubernetes service account token, decoded embedded secrets, pivoted via SSH, and escaped container isolation to reach root. Eloquia: exploited an admin panel, weaponized a file upload with a malicious DLL, used SQLite load_extension for remote code execution, then hijacked a Windows service to reach SYSTEM. Both required the same thinking a real attacker uses — and the same thinking a security team needs to defend against.",
-        "link": "https://www.notion.so/buddy99/Hack-The-Box-Write-Ups-2a2cd1e88ffe8019a66bf23aa046c566?source=copy_link",
-        "background": "/projects/find-your-tribe/background.jpg",
-        "mobile_pic": "/projects/find-your-tribe/map.png",
-        "desktop_pic": "/projects/find-your-tribe/bg22.png"
+        "title": "DevSecOps Pipeline on AWS — Jenkins, SonarQube, Trivy & Grafana",
+        "description": "Shipping fast without security is how vulnerabilities reach production. This pipeline scans before every deploy. Built a complete DevSecOps pipeline on AWS EC2 around a containerized streaming application: Jenkins CI/CD with SonarQube code-quality gates, Trivy filesystem and container image scanning, and OWASP Dependency-Check — then wired Prometheus, Grafana, and Node Exporter for live monitoring, with Kubernetes deployment via ArgoCD GitOps. Every build is scanned, gated, and observable before it reaches users.",
+        "tags": ["AWS EC2", "Jenkins", "SonarQube", "Trivy", "Docker", "Prometheus", "ArgoCD"],
+        "link": "https://github.com/JimilPrabtani/DevSecOps-Project",
+        "background": "/backgrounds/mountains.jpg",
+        "mobile_pic": "",
+        "desktop_pic": ""
     },
     {
-        "title": "AI-Powered Code Vulnerability Scanner",
+        "title": "AWS Security Monitoring — CloudTrail, CloudWatch & SNS Alerting",
+        "description": "Stolen credentials are the number one cloud attack vector — you need to know the moment a secret is touched. Built a detection pipeline on AWS: sensitive credentials stored in Secrets Manager, every access event captured by CloudTrail, logs centralized and analyzed in CloudWatch with custom metrics, and alarms pushing instant SNS email alerts on suspicious access. The same secret-access auditing pattern enterprises rely on to catch credential misuse early.",
+        "tags": ["AWS", "Secrets Manager", "CloudTrail", "CloudWatch", "SNS"],
+        "link": "https://github.com/JimilPrabtani/AWS-Security-Monitoring",
+        "background": "/backgrounds/sky.jpg",
+        "mobile_pic": "",
+        "desktop_pic": ""
+    },
+    {
+        "title": "Git Repository Vulnerability Scanner — Secrets & CI/CD Auditing",
+        "description": "Secrets don't just live in code — they hide in commit history. Built a dependency-free Python scanner that bare-clones any Git repository and hunts offline: regex and entropy-based secret detection (AWS keys, GitHub tokens, private key blocks, database URIs), full commit-history analysis to catch secrets that were deleted but remain recoverable, GitHub Actions misconfiguration checks (unpinned actions, risky context interpolation), and dependency-pinning audits — all reported as JSON and HTML.",
+        "tags": ["Python", "Secret Detection", "Git Forensics", "CI/CD Security"],
+        "link": "https://github.com/JimilPrabtani/Git-Vulnerabilities-scraper",
+        "background": "/backgrounds/sky.jpg",
+        "mobile_pic": "",
+        "desktop_pic": ""
+    },
+    {
+        "title": "WebVAPT Toolkit — AI-Assisted Web App Pentesting",
+        "description": "Manual web application testing doesn't scale. WebVAPT automates it. A Python toolkit that crawls a target application breadth-first, runs 30+ concurrent checks across seven vulnerability categories — XSS, SQL injection, SSTI, sensitive data exposure, security header analysis — deduplicates findings, then sends high-severity issues to AI providers (Gemini, OpenAI, Anthropic, Ollama) for CVSS scoring and remediation guidance. Ships three ways: Streamlit dashboard, FastAPI REST API, and CLI.",
+        "tags": ["Python", "FastAPI", "OWASP", "CVSS", "AI Analysis"],
+        "link": "https://github.com/JimilPrabtani/WebVAPT-toolkit",
+        "background": "/projects/find-your-tribe/background.jpg",
+        "mobile_pic": "",
+        "desktop_pic": ""
+    },
+    {
+        "title": "AI Code Vulnerability Scanner — Gemini-Powered SAST",
         "description": "Security reviews are slow — attackers aren't. Built an AI-powered code vulnerability scanner using Google Gemini that detects weaknesses across source code and auto-generates remediation guidance, applying GenAI/LLM security concepts to security automation tooling. Demonstrates practical application of agentic AI to the software development lifecycle, closing the gap between code shipping and security review.",
+        "tags": ["Python", "Google Gemini", "SAST", "GenAI Security"],
         "link": "https://github.com/JimilPrabtani/Vulnerability-scanner",
         "background": "/projects/find-your-tribe/background.jpg",
         "mobile_pic": "/projects/find-your-tribe/map.png",
         "desktop_pic": "/projects/find-your-tribe/AI-scanner.png"
     },
     {
-        "title": "Cybersecurity Home Lab with Wazuh SIEM",
+        "title": "Hack The Box Write-Ups — Full-Chain Exploitation to Root & SYSTEM",
+        "description": "Real attackers chain exploits — one vulnerability rarely hands over the keys. These machines demanded layered attack chains. Giveback: found a live WordPress CVE, abused PHP-CGI, extracted a Kubernetes service account token, decoded embedded secrets, pivoted via SSH, and escaped container isolation to reach root. Eloquia: exploited an admin panel, weaponized a file upload with a malicious DLL, used SQLite load_extension for remote code execution, then hijacked a Windows service to reach SYSTEM. Both required the same thinking a real attacker uses — and the same thinking a security team needs to defend against.",
+        "tags": ["Penetration Testing", "Privilege Escalation", "Container Escape", "Lateral Movement"],
+        "link": "https://www.notion.so/buddy99/Hack-The-Box-Write-Ups-2a2cd1e88ffe8019a66bf23aa046c566?source=copy_link",
+        "background": "/projects/find-your-tribe/background.jpg",
+        "mobile_pic": "/projects/find-your-tribe/map.png",
+        "desktop_pic": "/projects/find-your-tribe/bg22.jpg"
+    },
+    {
+        "title": "SOC Home Lab — Wazuh SIEM Detection Pipeline",
         "description": "Most breaches go undetected for months. This project built the infrastructure to catch them faster. Deployed Wazuh SIEM to monitor two Windows endpoints from a Kali Linux server — capturing real-time file integrity changes, running automated vulnerability scans, and generating alerts on suspicious activity. Built the full detection pipeline: log ingestion, correlation rules, and alerting. The same workflow runs in SOC environments monitoring thousands of endpoints.",
+        "tags": ["Wazuh", "SIEM", "File Integrity Monitoring", "Kali Linux"],
         "link": "#",
         "background": "/projects/sprunk/background.jpg",
         "mobile_pic": "/projects/sprunk/web.png",
         "desktop_pic": "/projects/sprunk/wazuh.jpg"
     },
     {
-        "title": "Network Security Homelab with pfSense",
+        "title": "Perimeter Defense Lab — pfSense, SYN-Flood Mitigation & IPsec VPN",
         "description": "A SYN flood attack can take a server offline in minutes. This project tested that — then stopped it. Built a virtual multi-network environment using pfSense as the perimeter firewall, launched a live SYN flood from Kali Linux, captured the traffic in Wireshark to see exactly what the attack looked like, then wrote firewall rules that blocked it. Also built a site-to-site IPsec VPN in GNS3 with AES-256 encryption and SHA-512 hashing, simulating secure branch-to-HQ communication over an untrusted internet segment.",
-        "link": "#",
+        "tags": ["pfSense", "Wireshark", "IPsec VPN", "GNS3", "DDoS Mitigation"],
+        "link": "https://github.com/JimilPrabtani/Networking-projects",
         "background": "/projects/sea-cracker/background.jpg",
         "mobile_pic": "/projects/sea-cracker/answer.png",
         "desktop_pic": "/projects/sea-cracker/pfsense.jpg"
     },
     {
-        "title": "Phishing Simulation Tool",
+        "title": "Phishing Simulation Platform — Measuring & Reducing Human Risk",
         "description": "People click phishing links — that's the reality. This tool makes sure teams know it before attackers do. A Flask-based platform that runs controlled phishing campaigns inside an organization, tracks exactly who clicks simulated phishing links, and delivers targeted education to those users. Built for security awareness teams to measure human risk and reduce it. Ethical use only.",
+        "tags": ["Python", "Flask", "Security Awareness", "Social Engineering"],
         "link": "https://github.com/JimilPrabtani/-Phishing-Awareness-Simulation-Tool-",
         "background": "/projects/sea-cracker/background.jpg",
-        "mobile_pic": "/projects/phishing-sim-tool/tool.png",
-        "desktop_pic": "/projects/phishing-sim-tool/tool.png"
+        "mobile_pic": "/projects/phishing-sim-tool/tool.jpg",
+        "desktop_pic": "/projects/phishing-sim-tool/tool.jpg"
     },
     {
         "title": "Python Security Tooling & Automation",
         "description": "A collection of Python scripts and security automation tools — including a CLI-based network analyzer with vulnerability detection, alert deduplication and PDF reporting; and broader Python learning projects covering data structures, object-oriented design, and practical problem-solving. The foundation for writing security automation tools, custom integrations, and rapid prototyping in any security role.",
-        "link": "https://github.com/JimilPrabtani/python-learning-projects",
+        "tags": ["Python", "Network Analysis", "Automation"],
+        "link": "https://github.com/JimilPrabtani/Python-Network-Analyzer",
         "background": "/projects/sea-cracker/background.jpg",
-        "mobile_pic": "/projects/python-p/python.png",
-        "desktop_pic": "/projects/python-p/python.png"
+        "mobile_pic": "/projects/python-p/python.jpg",
+        "desktop_pic": "/projects/python-p/python.jpg"
     }
 ]

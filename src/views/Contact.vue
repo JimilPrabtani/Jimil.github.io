@@ -51,8 +51,8 @@ onBeforeUnmount(() => {
                 </div>
 
                 <div class="flex flex-col justify-center items-center text-[6dvw] leading-none w-full h-full font-rubik">
-                    <h1 class="text-white">Let's work</h1>
-                    <h1 class="text-red-custom z-10">together</h1>
+                    <h2 class="text-white">Let's work</h2>
+                    <h2 class="text-red-custom z-10">together</h2>
                 </div>
 
                 <div class="h-full w-full flex justify-center items-end absolute pointer-events-none bg-red-400a" :style="`transform: translateY(${translationRef}px)`">

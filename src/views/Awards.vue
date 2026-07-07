@@ -12,11 +12,17 @@ import Parallax from '@/components/Parallax.vue';
                 <div data-parallax-value=".02" class="parallax absolute top-2/5 left-1/2 -translate-x-1/2 -translate-y-1/2 aspect-video w-[130dvw] bg-center bg-cover bg-[url('/awards/clouds.png')]"></div>
                 <img src="/awards/trophy.png" alt="" data-parallax-value=".15" class="parallax w-full absolute scale-200 -bottom-1/12 sm:scale-125 md:scale-150 lg:scale-125 lg:-bottom-1/3">
             </div>
+            <h2 class="sr-only">Certifications</h2>
             <div class="flex flex-row flex-nowrap gap-3 overflow-x-auto w-full">
-                <div v-for="award in awards" class="h-fit min-w-[200px] max-w-[250px] p-3 flex flex-col items-start cursor-default text-left flex-shrink-0">
+                <div v-for="award in awards" :key="award.title" class="h-fit min-w-[200px] max-w-[250px] p-3 flex flex-col items-start cursor-default text-left flex-shrink-0">
                     <span class="font-rubik text-xs">{{award.date}}</span>
-                    <h1 class="font-rubik text-sm italic font-bold">{{award.title}}</h1>
-                    <p class="text-xs leading-relaxed">{{award.description}}</p>
+                    <h3 class="font-rubik text-sm italic font-bold">{{award.title}}</h3>
+                    <p class="text-sm leading-relaxed">{{award.description}}</p>
+                    <a v-if="award.link" :href="award.link" target="_blank" rel="noopener"
+                        :aria-label="`Verify ${award.title}`"
+                        class="mt-2 text-xs font-rubik text-red-custom border-b border-red-custom hover:brightness-125 transition-all">
+                        Verify here ↗
+                    </a>
                 </div>
             </div>
         </div>

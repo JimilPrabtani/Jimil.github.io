@@ -3,6 +3,11 @@
         {
             "text": "jimil111prabtani@gmail.com",
             "href": "mailto:jimil111prabtani@gmail.com"
+        },
+        {
+            "text": "Download Resume",
+            "href": "/resume.pdf",
+            "target": "_blank"
         }
     ],
     "Social": [

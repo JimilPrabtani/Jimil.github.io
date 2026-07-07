@@ -15,7 +15,7 @@ import roomImage from '/backgrounds/room.jpg';
                     <div class="rounded-2xl object-contain aspect-video w-full overflow-hidden">
                         <img :src="story.image" alt="" class="h-full w-full object-contain" />
                     </div>
-                    <h1 class="font-bold text-xl leading-none font-rubik">{{ story.when }}</h1>
+                    <h3 class="font-bold text-xl leading-none font-rubik">{{ story.when }}</h3>
                     <p class="flex-1 h-fit">
                         {{ story.description }}
                     </p>
