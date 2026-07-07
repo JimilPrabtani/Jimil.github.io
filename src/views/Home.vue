@@ -34,7 +34,7 @@ onMounted(() => {
                     <span class="standard-text">I&nbsp;</span>
                     <TextAnim
                         v-if="containerRef"
-                        :texts="['Secure', 'Defend', 'Harden', 'Monitor', 'Automate']"
+                        :texts="['Architect', 'Secure', 'Defend', 'Harden', 'Monitor', 'Automate']"
                         :container="containerRef"
                         :duration="2.5"
                         :class="'text-red-custom'"
