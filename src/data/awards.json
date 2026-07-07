@@ -3,37 +3,37 @@
         "title": "AZ-500 — Azure Security Engineer Associate",
         "description": "Microsoft's professional-level certification for cloud security engineering on Azure. Validates hands-on mastery of Defender for Cloud, Microsoft Sentinel SIEM/SOAR, Key Vault, Entra ID, PIM, Conditional Access, WAFv2, and secure workload deployment. The gold standard for Azure security roles.",
         "date": "2026",
-        "link": ""
+        "link": "https://learn.microsoft.com/api/credentials/share/en-us/JimilPrabtani-6718/8016686A9E75DF4A?sharingId=7D2B71796D8F4B5F"
     },
     {
         "title": "AZ-700 — Azure Network Engineer Associate",
         "description": "Microsoft's professional certification for designing and implementing Azure networking. Covers hybrid connectivity with VPN Gateway and ExpressRoute, hub-spoke topologies, Azure Firewall, private access with Private Link and Private Endpoints, and traffic delivery with Load Balancer, Application Gateway and Front Door. The networking backbone every cloud security architecture sits on.",
         "date": "Jun 2026",
-        "link": ""
+        "link": "https://learn.microsoft.com/api/credentials/share/en-us/JimilPrabtani-6718/DCC6660488CEB3A2?sharingId=7D2B71796D8F4B5F"
     },
     {
         "title": "CompTIA Network+ Certified",
         "description": "Validates end-to-end networking knowledge: design, configuration, management, and troubleshooting — across wired and wireless environments. Vendor-neutral, meaning the skills apply across any stack, not just one vendor's ecosystem. The baseline for any serious network security role.",
         "date": "Sep 2025",
-        "link": ""
+        "link": "https://drive.google.com/file/d/14XeLKFSOrbz9SNrXkZ_2ENLzp7OqgCOm/view?usp=drive_link"
     },
     {
         "title": "CompTIA Security+ Certified",
         "description": "The global baseline for cybersecurity competency. Covers how attacks work, how defenses fail, and how to build systems that hold. Recognized by the U.S. Department of Defense under Directive 8570. Passing it means understanding threats from both sides of the perimeter.",
         "date": "Oct 2025",
-        "link": ""
+        "link": "https://drive.google.com/file/d/1mZAfqDRkSc1EtM4z8FghIfXoRmKp84GX/view?usp=drive_link"
     },
     {
         "title": "Palo Alto Network Security Fundamentals",
         "description": "Palo Alto Networks builds firewalls deployed in some of the world's most demanding network environments. This certification covers their next-generation firewall architecture — application-layer inspection, threat prevention, URL filtering, and user-based policies. Practical context for the tools running in enterprise and government networks.",
         "date": "Feb 2026",
-        "link": ""
+        "link": "https://drive.google.com/file/d/1xXObWCvu3TrMrA0bUCVDvKoPWYWvH5nK/view?usp=drive_link"
     },
     {
         "title": "Palo Alto Cloud Security Fundamentals",
         "description": "Covers cloud-native security architecture, CSPM, workload protection, and Palo Alto's Prisma Cloud platform. Validates understanding of securing multi-cloud environments across AWS, Azure, and GCP — threat prevention, compliance posture, and runtime defense at cloud scale.",
         "date": "Mar 2026",
-        "link": ""
+        "link": "https://drive.google.com/file/d/1meNkmFLel3SRixeE56Pdq849csQ8Um8m/view?usp=drive_link"
     },
     {
         "title": "Advent of Cyber 2025",
