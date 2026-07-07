@@ -76,7 +76,7 @@ onBeforeUnmount(() => {
             <CustomA v-for="(s, si) in getSections()" :key="s.id" :text="labelFor(s.id)" :href="`#${s.id}`" @click="(e) => scrollTo(e, s.el)"
                 class="navLink pointer-events-auto relative after:content-[''] after:h-[1px] after:left-0 after:bottom-0 after:absolute after:bg-white"
                 :class="{ 'after:transition-all after:duration-300': si === getSections().length - 1 }" />
-            <CustomA text="Resume" href="/resume.pdf" target="_blank"
+            <CustomA text="Resume" href="/resume/resume.pdf" target="_blank"
                 class="pointer-events-auto relative text-red-custom" />
         </div>
 
@@ -99,7 +99,7 @@ onBeforeUnmount(() => {
                 </a>
             </span>
             <span class="flex-1 flex items-center">
-                <a href="/resume.pdf" target="_blank" rel="noopener"
+                <a href="/resume/resume.pdf" target="_blank" rel="noopener"
                     class="text-3xl flex items-center justify-center transition-all cursor-pointer pointer-events-auto text-red-custom">
                     Resume
                 </a>
