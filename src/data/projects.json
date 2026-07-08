@@ -32,8 +32,8 @@
         "tags": ["AWS EC2", "Jenkins", "SonarQube", "Trivy", "Docker", "Prometheus", "ArgoCD"],
         "link": "https://github.com/JimilPrabtani/DevSecOps-Project",
         "background": "/backgrounds/mountains.jpg",
-        "mobile_pic": "",
-        "desktop_pic": ""
+        "mobile_pic": "/projects/DevSecOps/DevSecOps-Architecture-Diagram.png",
+        "desktop_pic": "/projects/DevSecOps/DevSecOps-Architecture-Diagram.png"
     },
     {
         "title": "AWS Security Monitoring — CloudTrail, CloudWatch & SNS Alerting",
@@ -41,8 +41,8 @@
         "tags": ["AWS", "Secrets Manager", "CloudTrail", "CloudWatch", "SNS"],
         "link": "https://github.com/JimilPrabtani/AWS-Security-Monitoring",
         "background": "/backgrounds/sky.jpg",
-        "mobile_pic": "",
-        "desktop_pic": ""
+        "mobile_pic": "/projects/AWS-SM/architecture-complete.png",
+        "desktop_pic": "/projects/AWS-SM/architecture-complete.png"
     },
     {
         "title": "Git Repository Vulnerability Scanner — Secrets & CI/CD Auditing",
@@ -54,7 +54,7 @@
         "desktop_pic": ""
     },
     {
-        "title": "WebVAPT Toolkit — AI-Assisted Web App Pentesting",
+        "title": "WebVAPT Toolkit AI-Assisted Web App Pentesting",
         "description": "Manual web application testing doesn't scale. WebVAPT automates it. A Python toolkit that crawls a target application breadth-first, runs 30+ concurrent checks across seven vulnerability categories — XSS, SQL injection, SSTI, sensitive data exposure, security header analysis — deduplicates findings, then sends high-severity issues to AI providers (Gemini, OpenAI, Anthropic, Ollama) for CVSS scoring and remediation guidance. Ships three ways: Streamlit dashboard, FastAPI REST API, and CLI.",
         "tags": ["Python", "FastAPI", "OWASP", "CVSS", "AI Analysis"],
         "link": "https://github.com/JimilPrabtani/WebVAPT-toolkit",
