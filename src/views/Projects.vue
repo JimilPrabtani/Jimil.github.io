@@ -21,7 +21,7 @@ onMounted(() => {
 <template>
     <ImageAsCursor v-if="containerRef" :contentSection="containerRef" />
     <FramedMainSection ref="frameRef" id="projects" :class="'min-h-[100dvh] flex h-auto'">
-        <div class="flex-1 w-full bg-fit flex flex-col text-center pt-20">
+        <div class="relative flex-1 w-full bg-fit flex flex-col text-center pt-20">
             <h2 class="sr-only">Projects</h2>
             <div class="w-full h-full flex flex-col">
                 <ToggleSection v-for="(project, pi) in projects" :key="pi" :open="isOpen(pi)" @toggle="toggle(pi)"

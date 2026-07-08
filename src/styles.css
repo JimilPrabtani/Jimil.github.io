@@ -8,7 +8,7 @@
 
 @layer utilities {
   html, body {
-    @apply overflow-x-hidden; 
+    @apply overflow-hidden h-full;
   }
 
   .pause {

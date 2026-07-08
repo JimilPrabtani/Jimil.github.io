@@ -29,8 +29,8 @@ onMounted(() => {
             </h1>
 
             <div
-                class="text-white font-rubik uppercase text-[4.5dvw] xl:text-[5dvh] leading-none flex justify-center items-center">
-                <p class="flex h-[3.8dvw] xl:h-[4.2dvh] overflow-hidden">
+                class="text-white font-rubik uppercase text-[3.4dvw] md:text-[4dvw] xl:text-[5dvh] leading-none flex justify-center items-center">
+                <p class="flex h-[2.9dvw] md:h-[3.4dvw] xl:h-[4.2dvh] overflow-hidden">
                     <span class="standard-text">I&nbsp;</span>
                     <TextAnim
                         v-if="containerRef"
